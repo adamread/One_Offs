@@ -9,6 +9,7 @@ open_tickets_per_day = {}
 sum_open_days = 0
 max_open_days = 0
 min_open_days = 1000
+num_prio_tickets = {'1': 0, '2': 0, '3': 0}
 
 with open('C:/Users/Adam/Downloads/CPCM_All_Tickets_2015-09-21.csv', newline='') as csvfile:
     ticket_reader = csv.reader(csvfile, delimiter=',', quotechar='"')
